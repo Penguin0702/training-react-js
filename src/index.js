@@ -28,7 +28,7 @@ var username = (state = null, action) => {
 var reducer = combineReducers({ username });
 var store = createStore(reducer);
 // console.log(store.getState());
-store.dispatch({ type: 'LOG_IN', username: 'penguin' });
+// store.dispatch({ type: 'LOG_IN', username: 'penguin' });
 // console.log(store.getState());
 // store.dispatch({ type: 'LOG_OUT' });
 // console.log(store.getState());
